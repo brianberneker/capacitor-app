@@ -1,0 +1,6 @@
+{
+  "appId": "com.brianberneker.app",
+  "appName": "capacitor-app",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
