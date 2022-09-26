@@ -1,6 +1,6 @@
 {
   "appId": "com.brianberneker.app",
-  "appName": "capacitor-app",
+  "appName": "Workout Tracker",
   "webDir": "dist",
   "bundledWebRuntime": false
 }
