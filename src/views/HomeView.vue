@@ -1,7 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+      <img src='@/../public/svg/workout.svg'>
+    </div>
+    <div>
+    <img src='@/../public/svg/food.svg'>
+    </div>
+    <div>
+    <img src='@/../public/svg/heart.svg'>
+    </div>
+    <div>
+    <img src='@/../public/svg/weight.svg'>
+    </div>
+
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
@@ -16,3 +28,21 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+
+.home {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+
+  > div {
+    flex-grow: 1;
+  }
+
+  img { width: 33vw; }
+
+}
+
+</style>
