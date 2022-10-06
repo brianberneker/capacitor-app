@@ -2,15 +2,19 @@
   <div class="home">
     <div>
       <img src='@/../public/svg/workout.svg'>
+      <p>Workout</p>
     </div>
     <div>
-    <img src='@/../public/svg/food.svg'>
+      <img src='@/../public/svg/food.svg'>
+      <p>Food Diary</p>
     </div>
     <div>
-    <img src='@/../public/svg/heart.svg'>
+      <img src='@/../public/svg/heart.svg'>
+      <p>Health</p>
     </div>
     <div>
-    <img src='@/../public/svg/weight.svg'>
+      <img src='@/../public/svg/weight.svg'>
+      <p>Weight</p>
     </div>
 
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -39,9 +43,10 @@ export default {
 
   > div {
     flex-grow: 1;
+    padding-top: 1em;
   }
 
-  img { width: 33vw; }
+  img { width: 5rem; }
 
 }
 
