@@ -39,6 +39,7 @@ export default {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 1em;
 
   > div {
@@ -46,7 +47,10 @@ export default {
     padding-top: 1em;
   }
 
-  img { width: 5rem; }
+  img {
+    width: 5rem;
+    // filter: grayscale(100);
+  }
 
 }
 
